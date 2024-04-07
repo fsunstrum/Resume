@@ -1,0 +1,258 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage[style=apa]{biblatex}
+\addbibresource{refs/Oat.bib}
+\addbibresource{refs/pOne.bib}
+\addbibresource{refs/PJ.bib}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Fred Sunstrum} \\ \vspace{1pt}\href{mailto:fr.sunstrum@gmail.com}{\underline{fredsunstrum@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/fredsunstrum/}{\underline{linkedin.com/in/fredsunstrum/}} %$|$
+    %\href{https://github.com/...}{\underline{github.com/}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Computer Science (BCS)}{Sep. 2023 -- Aug. 2025}
+      {University of British Columbia}{Vancouver, BC}
+    \resumeSubheading
+      {MSc. Genome Science and Technology}{May. 2019 -- Nov 2021}          
+      {University of British Columbia}{Vancouver, BC}
+    \resumeSubheading
+      {BSc. Biology, Minor in Statistics}{Aug. 2014 -- Dec 2018}
+      {University of Ottawa}{Ottawa, ON}
+      
+  \resumeSubHeadingListEnd
+%
+
+
+%-----------WORK EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Research Methodologist II}{Feb. 2021 -- Aug 2023}
+      {University of Ottawa Heart Institute - Cardiovascular Research Methods Center}{Ottawa, ON}
+      \resumeItemListStart
+        \resumeItem{Developped a web scraper in R to retrieve clinical trial data.}
+        \resumeItem{Led the analysis and writing of systematic litterature reviews on stem cell treatments for COVID-19 and autoimmune disorders.}
+        \resumeItem{Performed reference screening, data extraction, risk-of-bias analysis, drafted protocol registrations, and manuscripts for peer-reviewed publication.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Graduate Research Assistant}{May. 2019 -- Dec 2021}
+      {University of British Columbia - Michael Smith Laboratories }{Vancouver, BC}
+      \resumeItemListStart
+        \resumeItem{Discovered genes involved in biosynthesis of an anti-diabetic plant compound (MbA) and used metabolic engineering to produce MbA in wild tobacco.}
+        \resumeItem{Mined a time-series transcriptomic dataset to to identify candidate genes.}
+        \resumeItem{Improved MbA yields 10x in engineered wild tobacco by expressing genes involved in precursor biosynthesis.}
+        \resumeItem{Improved precursor availability 20x through metabolic engineering.}
+        \resumeItem{Published thesis findings in peer-reviewed journals.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
+  \resumeSubHeadingListEnd
+
+% %-----------OTHER EXPERIENCE-----------
+% \section{Other Experience}
+%   \resumeSubHeadingListStart
+  
+%     \resumeSubheading
+%       {Research Methodologist II}{Feb. 2021 -- Aug 2023}
+%       {University of Ottawa Heart Institute - Cardiovascular Research Methods Center}{Ottawa, ON}
+%       \resumeItemListStart
+%         \resumeItem{Developped a web scraper in R to retrieve clinical trial data.}
+%         \resumeItem{Led the analysis and writing of systematic litterature reviews on stem cell treatments for COVID-19 and autoimmune disorders.}
+%         \resumeItem{Performed reference screening, data extraction, risk-of-bias analysis, drafted protocol registrations, and manuscripts for peer-reviewed publication.}
+%     \resumeItemListEnd
+    
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
+  % \resumeSubHeadingListEnd
+
+
+
+% %-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{WORDLE clone} $|$ \emph{Java, Java Swing, IntelliJ, JSON}}{Sept 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a WORDLE clone in Java, using including word generation, comparison, and robust input handling.}
+            \resumeItem{Created a GUI using Java Swing and used JSON for saving user progress.}
+            \resumeItem{Applied Object Oriented Programming principles and test-driven development.}
+
+          \resumeItemListEnd
+
+                  
+      \resumeProjectHeading
+          {\textbf{The Last Laugh} $|$ \emph{Godot Game Engine, GDScript}}{Jan 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Worked as a team to create a 2D platformer game using the Godot game engine.}
+            \resumeItem{Implemented projectile flight and collision mechanics triggering animations.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%----------- Publications-----------
+
+\section*{Selected Publications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item{\fullcite{Oats}}
+    \item{\fullcite{PJs}}
+    \item{\fullcite{pOnes}}
+\end{itemize}
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: R, C/C++, Java, GDScript} \\
+     \textbf{Frameworks/Tools}{: Git, RStudio, ggplot2, IntelliJ, JUnit, VS Code} \\
+    }}
+ \end{itemize}
+ 
+
+
+%-------------------------------------------
+
+
+\end{document}
