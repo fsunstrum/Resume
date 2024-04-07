@@ -1,0 +1,433 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{PJs}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=a0985d3f5fc2b81fc46bccc9e077c2e7}{%
+           family={Kruse},
+           familyi={K\bibinitperiod},
+           given={Lars\bibnamedelima H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de510eebbb3653bf4445f7425e7c386e}{%
+           family={\textbf{Sunstrum,\bibnamedelimb Frederick\bibnamedelimb G.}},
+           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=608345d29f1983ccf5d074875b5c2fc7}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ab03d7f6506589051f2349d6c2c0b50}{%
+           family={López\bibnamedelima Pérez},
+           familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Guillermo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0a319cf4e8fda8e2e3d70238b947b6f}{%
+           family={Jancsik},
+           familyi={J\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e776066057a40a2f8b83b35da1c44423}{%
+           family={Bohlmann},
+           familyi={B\bibinitperiod},
+           given={Joerg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0522511e7ed043ac9747ed4b519bffe}{%
+           family={Irmisch},
+           familyi={I\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{40d092299212f7a682fd54e5ddc7f394}
+      \strng{fullhash}{43df1227e34ae125e3cab63a66b2b58c}
+      \strng{bibnamehash}{43df1227e34ae125e3cab63a66b2b58c}
+      \strng{authorbibnamehash}{43df1227e34ae125e3cab63a66b2b58c}
+      \strng{authornamehash}{40d092299212f7a682fd54e5ddc7f394}
+      \strng{authorfullhash}{43df1227e34ae125e3cab63a66b2b58c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SUMMARY The plant-specialized metabolite montbretin A (MbA) is being developed as a new treatment option for type-2 diabetes, which is among the ten leading causes of premature death and disability worldwide. MbA is a complex acylated flavonoid glycoside produced in small amounts in below-ground organs of the perennial plant Montbretia (Crocosmia × crocosmiiflora). The lack of a scalable production system limits the development and potential application of MbA as a pharmaceutical or nutraceutical. Previous efforts to reconstruct montbretin biosynthesis in Nicotiana benthamiana (Nb) resulted in low yields of MbA and higher levels of montbretin B (MbB) and montbretin C (MbC). MbA, MbB, and MbC are nearly identical metabolites differing only in their acyl moieties, derived from caffeoyl-CoA, coumaroyl-CoA, and feruloyl-CoA, respectively. In contrast to MbA, MbB and MbC are not pharmaceutically active. To utilize the montbretia caffeoyl-CoA biosynthesis for improved MbA engineering in Nb, we cloned and characterized enzymes of the shikimate shunt of the general phenylpropanoid pathway, specifically hydroxycinnamoyl-CoA: shikimate hydroxycinnamoyl transferase (CcHCT), p-coumaroylshikimate 3′-hydroxylase (CcC3′H), and caffeoylshikimate esterase (CcCSE). Gene expression patterns suggest that CcCSE enables the predominant formation of MbA, relative to MbB and MbC, in montbretia. This observation is supported by results from in vitro characterization of CcCSE and reconstruction of the shikimate shunt in yeast. Using CcHCT together with montbretin biosynthetic genes in multigene constructs resulted in a 30-fold increase of MbA in Nb. This work advances our understanding of the phenylpropanoid pathway and features a critical step towards improved MbA production in bioengineered Nb.}
+      \field{journaltitle}{The Plant Journal}
+      \field{number}{3}
+      \field{title}{Improved production of the antidiabetic metabolite montbretin A in Nicotiana benthamiana: discovery, characterization, and use of Crocosmia shikimate shunt genes}
+      \field{volume}{117}
+      \field{year}{2024}
+      \field{pages}{766\bibrangedash 785}
+      \range{pages}{20}
+      \verb{doi}
+      \verb https://doi.org/10.1111/tpj.16528
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.16528
+      \endverb
+      \keyw{montbretia,Crocosmia × crocosmiiflora,type-2 diabetes,obesity,bioengineering,flavonoid biosynthesis,phenylpropanoid pathway,hydroxycinnamoyl-CoA: Shikimate hydroxycinnamoyl transferase (HCT),caffeoyl shikimate esterase (CSE),p-coumaroylshikimate 3′-hydroxylase (C3′H)}
+    \endentry
+    \entry{Oats}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=de510eebbb3653bf4445f7425e7c386e}{%
+           family={\textbf{Sunstrum,\bibnamedelimb Frederick\bibnamedelimb G.}},
+           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=c0057e7c126bd7b18ab695d999b63c0b}{%
+           family={Bekele},
+           familyi={B\bibinitperiod},
+           given={Wubishet\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4ec3ef3bdacfa9a64e53d5b005bbee4}{%
+           family={Wight},
+           familyi={W\bibinitperiod},
+           given={Charlene\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25b2579278f2ee9a8fcf02df61b8aa91}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Weikai},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bda20280e3006ef66f2973de2dd283c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yuanhong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eca79155572526d7c8ea1b15b4748d20}{%
+           family={Tinker},
+           familyi={T\bibinitperiod},
+           given={Nicholas\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34b0801e22fcd73de6989aa4686ccb55}
+      \strng{fullhash}{2889d5a3bda034e657850b8d0f45f5a9}
+      \strng{bibnamehash}{2889d5a3bda034e657850b8d0f45f5a9}
+      \strng{authorbibnamehash}{2889d5a3bda034e657850b8d0f45f5a9}
+      \strng{authornamehash}{34b0801e22fcd73de6989aa4686ccb55}
+      \strng{authorfullhash}{2889d5a3bda034e657850b8d0f45f5a9}
+      \field{extraname}{1}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract We developed 178 recombinant inbred lines from a southern-by-spring oat population designated as “TxH.” These lines were genotyped to generate a high-quality linkage map that resolved 6,902 markers into 21 linkage groups that matched closely with the latest hexaploid oat consensus map. Three major quantitative trait loci (QTLs) affecting heading date were found in locations that are consistent with known QTLs and candidate genes, and two other QTLs affecting heading date were found in novel locations. Five QTLs affecting plant height were found. Both sets of QTLs are responsible for transgressive segregation observed for these two traits. Four QTLs affecting resistance to crown rust, caused by the pathogen Puccinia coronata f. sp. avenae, were identified. Two of these QTLs are consistent with known clusters of rust resistance genes, while two may represent new locations of novel rust resistance genes. A complete set of SNP sequences suitable for generating markers for molecular selection is provided.}
+      \field{journaltitle}{Plant Breeding}
+      \field{number}{1}
+      \field{title}{A genetic linkage map in southern-by-spring oat identifies multiple quantitative trait loci for adaptation and rust resistance}
+      \field{volume}{138}
+      \field{year}{2019}
+      \field{pages}{82\bibrangedash 94}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1111/pbr.12666
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/pbr.12666
+      \endverb
+      \keyw{Avena sativa,flowering time,genotyping by sequencing (GBS),heading date,height,linkage map,Puccinia coronata,quantitative trait loci (QTL)}
+    \endentry
+    \entry{pOnes}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=de510eebbb3653bf4445f7425e7c386e}{%
+           family={\textbf{Sunstrum,\bibnamedelimb Frederick\bibnamedelimb G.}},
+           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=bd477140db4fb8a80095bb9b44e08761}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hannah\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0a319cf4e8fda8e2e3d70238b947b6f}{%
+           family={Jancsik},
+           familyi={J\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f814cf6e96c5300eb38eeb300eaa8df}{%
+           family={Madilao},
+           familyi={M\bibinitperiod},
+           given={Lufiani\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e776066057a40a2f8b83b35da1c44423}{%
+           family={Bohlmann},
+           familyi={B\bibinitperiod},
+           given={Joerg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0522511e7ed043ac9747ed4b519bffe}{%
+           family={Irmisch},
+           familyi={I\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{34b0801e22fcd73de6989aa4686ccb55}
+      \strng{fullhash}{1a8ab8ff3fa9858803df5f627ea7976e}
+      \strng{bibnamehash}{1a8ab8ff3fa9858803df5f627ea7976e}
+      \strng{authorbibnamehash}{1a8ab8ff3fa9858803df5f627ea7976e}
+      \strng{authornamehash}{34b0801e22fcd73de6989aa4686ccb55}
+      \strng{authorfullhash}{1a8ab8ff3fa9858803df5f627ea7976e}
+      \field{extraname}{2}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background Montbretins are rare specialized metabolites found in montbretia (Crocosmia x crocosmiiflora) corms. Montbretin A (MbA) is of particular interest as a novel therapeutic for type-2 diabetes and obesity. There is no scalable production system for this complex acylated flavonol glycoside. MbA biosynthesis has been reconstructed in Nicotiana benthamiana using montbretia genes for the assembly of MbA from its various different building blocks. However, in addition to smaller amounts of MbA, the therapeutically inactive montbretin B (MbB) was the major product of this metabolic engineering effort. MbA and MbB differ in a single hydroxyl group of their acyl side chains, which are derived from caffeoyl-CoA and coumaroyl-CoA, respectively. Biosynthesis of both MbA and MbB also require coumaroyl-CoA for the formation of the myricetin core. Caffeoyl-CoA and coumaroyl-CoA are formed in the central phenylpropanoid pathway by acyl activating enzymes (AAEs) known as 4-coumaroyl-CoA ligases (4CLs). Here we investigated a small family of montbretia AAEs and 4CLs, and their possible contribution to montbretin biosynthesis. Results Transcriptome analysis for gene expression patterns related to montbretin biosynthesis identified eight different montbretia AAEs belonging to four different clades. Enzyme characterization identified 4CL activity for two clade IV members, Cc4CL1 and Cc4CL2, converting different hydroxycinnamic acids into the corresponding CoA thioesters. Both enzymes preferred coumaric acid over caffeic acid as a substrate in vitro. While expression of montbretia AAEs did not enhance MbA biosynthesis in N. benthamiana, we demonstrated that both Cc4CLs can be used to activate coumaric and caffeic acid towards flavanone biosynthesis in yeast (Saccharomyces cerevisiae). Conclusions Montbretia expresses two functional 4CLs, but neither of them is specific for the formation of caffeoyl-CoA. Based on differential expression analysis and phylogeny Cc4CL1 is most likely involved in MbA biosynthesis, while Cc4CL2 may contribute to lignin biosynthesis. Both Cc4CLs can be used for flavanone production to support metabolic engineering of MbA in yeast.}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{4-Coumaroyl-CoA ligases in the biosynthesis of the anti-diabetic metabolite montbretin A}
+      \field{volume}{16}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0257478
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{PJs}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=a0985d3f5fc2b81fc46bccc9e077c2e7}{%
+           family={Kruse},
+           familyi={K\bibinitperiod},
+           given={Lars\bibnamedelima H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de510eebbb3653bf4445f7425e7c386e}{%
+           family={\textbf{Sunstrum,\bibnamedelimb Frederick\bibnamedelimb G.}},
+           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=608345d29f1983ccf5d074875b5c2fc7}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ab03d7f6506589051f2349d6c2c0b50}{%
+           family={López\bibnamedelima Pérez},
+           familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Guillermo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0a319cf4e8fda8e2e3d70238b947b6f}{%
+           family={Jancsik},
+           familyi={J\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e776066057a40a2f8b83b35da1c44423}{%
+           family={Bohlmann},
+           familyi={B\bibinitperiod},
+           given={Joerg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0522511e7ed043ac9747ed4b519bffe}{%
+           family={Irmisch},
+           familyi={I\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{40d092299212f7a682fd54e5ddc7f394}
+      \strng{fullhash}{43df1227e34ae125e3cab63a66b2b58c}
+      \strng{bibnamehash}{43df1227e34ae125e3cab63a66b2b58c}
+      \strng{authorbibnamehash}{43df1227e34ae125e3cab63a66b2b58c}
+      \strng{authornamehash}{40d092299212f7a682fd54e5ddc7f394}
+      \strng{authorfullhash}{43df1227e34ae125e3cab63a66b2b58c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SUMMARY The plant-specialized metabolite montbretin A (MbA) is being developed as a new treatment option for type-2 diabetes, which is among the ten leading causes of premature death and disability worldwide. MbA is a complex acylated flavonoid glycoside produced in small amounts in below-ground organs of the perennial plant Montbretia (Crocosmia × crocosmiiflora). The lack of a scalable production system limits the development and potential application of MbA as a pharmaceutical or nutraceutical. Previous efforts to reconstruct montbretin biosynthesis in Nicotiana benthamiana (Nb) resulted in low yields of MbA and higher levels of montbretin B (MbB) and montbretin C (MbC). MbA, MbB, and MbC are nearly identical metabolites differing only in their acyl moieties, derived from caffeoyl-CoA, coumaroyl-CoA, and feruloyl-CoA, respectively. In contrast to MbA, MbB and MbC are not pharmaceutically active. To utilize the montbretia caffeoyl-CoA biosynthesis for improved MbA engineering in Nb, we cloned and characterized enzymes of the shikimate shunt of the general phenylpropanoid pathway, specifically hydroxycinnamoyl-CoA: shikimate hydroxycinnamoyl transferase (CcHCT), p-coumaroylshikimate 3′-hydroxylase (CcC3′H), and caffeoylshikimate esterase (CcCSE). Gene expression patterns suggest that CcCSE enables the predominant formation of MbA, relative to MbB and MbC, in montbretia. This observation is supported by results from in vitro characterization of CcCSE and reconstruction of the shikimate shunt in yeast. Using CcHCT together with montbretin biosynthetic genes in multigene constructs resulted in a 30-fold increase of MbA in Nb. This work advances our understanding of the phenylpropanoid pathway and features a critical step towards improved MbA production in bioengineered Nb.}
+      \field{journaltitle}{The Plant Journal}
+      \field{number}{3}
+      \field{title}{Improved production of the antidiabetic metabolite montbretin A in Nicotiana benthamiana: discovery, characterization, and use of Crocosmia shikimate shunt genes}
+      \field{volume}{117}
+      \field{year}{2024}
+      \field{pages}{766\bibrangedash 785}
+      \range{pages}{20}
+      \verb{doi}
+      \verb https://doi.org/10.1111/tpj.16528
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.16528
+      \endverb
+      \keyw{montbretia,Crocosmia × crocosmiiflora,type-2 diabetes,obesity,bioengineering,flavonoid biosynthesis,phenylpropanoid pathway,hydroxycinnamoyl-CoA: Shikimate hydroxycinnamoyl transferase (HCT),caffeoyl shikimate esterase (CSE),p-coumaroylshikimate 3′-hydroxylase (C3′H)}
+    \endentry
+    \entry{Oats}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=de510eebbb3653bf4445f7425e7c386e}{%
+           family={\textbf{Sunstrum,\bibnamedelimb Frederick\bibnamedelimb G.}},
+           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=c0057e7c126bd7b18ab695d999b63c0b}{%
+           family={Bekele},
+           familyi={B\bibinitperiod},
+           given={Wubishet\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4ec3ef3bdacfa9a64e53d5b005bbee4}{%
+           family={Wight},
+           familyi={W\bibinitperiod},
+           given={Charlene\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25b2579278f2ee9a8fcf02df61b8aa91}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Weikai},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bda20280e3006ef66f2973de2dd283c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yuanhong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eca79155572526d7c8ea1b15b4748d20}{%
+           family={Tinker},
+           familyi={T\bibinitperiod},
+           given={Nicholas\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34b0801e22fcd73de6989aa4686ccb55}
+      \strng{fullhash}{2889d5a3bda034e657850b8d0f45f5a9}
+      \strng{bibnamehash}{2889d5a3bda034e657850b8d0f45f5a9}
+      \strng{authorbibnamehash}{2889d5a3bda034e657850b8d0f45f5a9}
+      \strng{authornamehash}{34b0801e22fcd73de6989aa4686ccb55}
+      \strng{authorfullhash}{2889d5a3bda034e657850b8d0f45f5a9}
+      \field{extraname}{1}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract We developed 178 recombinant inbred lines from a southern-by-spring oat population designated as “TxH.” These lines were genotyped to generate a high-quality linkage map that resolved 6,902 markers into 21 linkage groups that matched closely with the latest hexaploid oat consensus map. Three major quantitative trait loci (QTLs) affecting heading date were found in locations that are consistent with known QTLs and candidate genes, and two other QTLs affecting heading date were found in novel locations. Five QTLs affecting plant height were found. Both sets of QTLs are responsible for transgressive segregation observed for these two traits. Four QTLs affecting resistance to crown rust, caused by the pathogen Puccinia coronata f. sp. avenae, were identified. Two of these QTLs are consistent with known clusters of rust resistance genes, while two may represent new locations of novel rust resistance genes. A complete set of SNP sequences suitable for generating markers for molecular selection is provided.}
+      \field{journaltitle}{Plant Breeding}
+      \field{number}{1}
+      \field{title}{A genetic linkage map in southern-by-spring oat identifies multiple quantitative trait loci for adaptation and rust resistance}
+      \field{volume}{138}
+      \field{year}{2019}
+      \field{pages}{82\bibrangedash 94}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1111/pbr.12666
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/pbr.12666
+      \endverb
+      \keyw{Avena sativa,flowering time,genotyping by sequencing (GBS),heading date,height,linkage map,Puccinia coronata,quantitative trait loci (QTL)}
+    \endentry
+    \entry{pOnes}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=de510eebbb3653bf4445f7425e7c386e}{%
+           family={\textbf{Sunstrum,\bibnamedelimb Frederick\bibnamedelimb G.}},
+           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=bd477140db4fb8a80095bb9b44e08761}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hannah\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0a319cf4e8fda8e2e3d70238b947b6f}{%
+           family={Jancsik},
+           familyi={J\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f814cf6e96c5300eb38eeb300eaa8df}{%
+           family={Madilao},
+           familyi={M\bibinitperiod},
+           given={Lufiani\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e776066057a40a2f8b83b35da1c44423}{%
+           family={Bohlmann},
+           familyi={B\bibinitperiod},
+           given={Joerg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0522511e7ed043ac9747ed4b519bffe}{%
+           family={Irmisch},
+           familyi={I\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{34b0801e22fcd73de6989aa4686ccb55}
+      \strng{fullhash}{1a8ab8ff3fa9858803df5f627ea7976e}
+      \strng{bibnamehash}{1a8ab8ff3fa9858803df5f627ea7976e}
+      \strng{authorbibnamehash}{1a8ab8ff3fa9858803df5f627ea7976e}
+      \strng{authornamehash}{34b0801e22fcd73de6989aa4686ccb55}
+      \strng{authorfullhash}{1a8ab8ff3fa9858803df5f627ea7976e}
+      \field{extraname}{2}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background Montbretins are rare specialized metabolites found in montbretia (Crocosmia x crocosmiiflora) corms. Montbretin A (MbA) is of particular interest as a novel therapeutic for type-2 diabetes and obesity. There is no scalable production system for this complex acylated flavonol glycoside. MbA biosynthesis has been reconstructed in Nicotiana benthamiana using montbretia genes for the assembly of MbA from its various different building blocks. However, in addition to smaller amounts of MbA, the therapeutically inactive montbretin B (MbB) was the major product of this metabolic engineering effort. MbA and MbB differ in a single hydroxyl group of their acyl side chains, which are derived from caffeoyl-CoA and coumaroyl-CoA, respectively. Biosynthesis of both MbA and MbB also require coumaroyl-CoA for the formation of the myricetin core. Caffeoyl-CoA and coumaroyl-CoA are formed in the central phenylpropanoid pathway by acyl activating enzymes (AAEs) known as 4-coumaroyl-CoA ligases (4CLs). Here we investigated a small family of montbretia AAEs and 4CLs, and their possible contribution to montbretin biosynthesis. Results Transcriptome analysis for gene expression patterns related to montbretin biosynthesis identified eight different montbretia AAEs belonging to four different clades. Enzyme characterization identified 4CL activity for two clade IV members, Cc4CL1 and Cc4CL2, converting different hydroxycinnamic acids into the corresponding CoA thioesters. Both enzymes preferred coumaric acid over caffeic acid as a substrate in vitro. While expression of montbretia AAEs did not enhance MbA biosynthesis in N. benthamiana, we demonstrated that both Cc4CLs can be used to activate coumaric and caffeic acid towards flavanone biosynthesis in yeast (Saccharomyces cerevisiae). Conclusions Montbretia expresses two functional 4CLs, but neither of them is specific for the formation of caffeoyl-CoA. Based on differential expression analysis and phylogeny Cc4CL1 is most likely involved in MbA biosynthesis, while Cc4CL2 may contribute to lignin biosynthesis. Both Cc4CLs can be used for flavanone production to support metabolic engineering of MbA in yeast.}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{4-Coumaroyl-CoA ligases in the biosynthesis of the anti-diabetic metabolite montbretin A}
+      \field{volume}{16}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0257478
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
