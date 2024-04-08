@@ -1,25 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[37] biber-darwin:340> INFO - === Sat Apr  6, 2024, 18:41:04
-[47] Biber.pm:419> INFO - Reading 'main.bcf'
-[99] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
-[109] Biber.pm:4419> INFO - Processing section 0
-[114] Biber.pm:4610> INFO - Looking for bibtex file 'refs/Oat.bib' for section 0
-[115] bibtex.pm:1713> INFO - LaTeX decoding ...
-[117] bibtex.pm:1519> INFO - Found BibTeX data source 'refs/Oat.bib'
-[134] Biber.pm:4610> INFO - Looking for bibtex file 'refs/pOne.bib' for section 0
-[134] bibtex.pm:1713> INFO - LaTeX decoding ...
-[135] bibtex.pm:1519> INFO - Found BibTeX data source 'refs/pOne.bib'
-[140] Biber.pm:4610> INFO - Looking for bibtex file 'refs/PJ.bib' for section 0
-[140] bibtex.pm:1713> INFO - LaTeX decoding ...
-[141] bibtex.pm:1519> INFO - Found BibTeX data source 'refs/PJ.bib'
-[154] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[154] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[154] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[154] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[161] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[161] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[161] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[161] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[165] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[171] bbl.pm:763> INFO - Output to main.bbl
+[63] biber-darwin:340> INFO - === Mon Apr  8, 2024, 12:52:11
+[80] Biber.pm:419> INFO - Reading 'main.bcf'
+[169] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[186] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[186] bbl.pm:763> INFO - Output to main.bbl
+[186] Biber.pm:131> WARN - The file 'main.bcf' does not contain any citations!
+[187] Biber.pm:133> INFO - WARNINGS: 1

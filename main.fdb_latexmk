@@ -1,15 +1,12 @@
 # Fdb version 4
-["biber main"] 1712454062.91125 "main.bcf" "main.bbl" "main" 1712456726.27092 0
-  "main.bcf" 1712456726.21581 132886 beeb2353c1a3a43a2f7aa19c564ef5ea "pdflatex"
-  "refs/Oat.bib" 1712477510 1779 d2ff060846962a9750785d17e7b95508 ""
-  "refs/PJ.bib" 1712477510 2776 9adc278929f2ebb65997a83d11d18aae ""
-  "refs/pOne.bib" 1712477510 2744 bf470f63d3e0b7b892b3ed07216ff4ab ""
+["biber main"] 1712605928.43404 "main.bcf" "main.bbl" "main" 1712606074.21461 0
+  "main.bcf" 1712606074.12496 132709 595cf743f518c81b86a58f2eef0f2b4e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1712456725.37499 "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" "main.pdf" "main" 1712456726.27124 0
-  "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" 1712456725.12155 8697 ee5e95538d6dc18b7adb77cd38935b9d ""
+["pdflatex"] 1712606072.83848 "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" "main.pdf" "main" 1712606074.21514 0
+  "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" 1712606071.13957 9731 5174188e14e1863a318efed38127528b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -113,11 +110,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1712453175.89373 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1712453085 8221434 31caf86439fa900c9220e3c0ec29571e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1712456726.21368 1145 71fa8d48d49e5b31bf343aac825f27e8 "pdflatex"
-  "main.bbl" 1712454064.93957 28518 a212479ab745e311ed74226b164569db "biber main"
-  "main.out" 1712456726.21488 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "main.run.xml" 1712456726.21638 2489 6c6e7a6848cb892b39df66fd5e5a1677 "pdflatex"
-  "main.tex" 1712456725.12155 8697 ee5e95538d6dc18b7adb77cd38935b9d ""
+  "main.aux" 1712606074.1206 772 854b06ed09e221576ea2a2a03187b9e8 "pdflatex"
+  "main.bbl" 1712605931.82735 466 ee04f40f768daeed26442158e95aba61 "biber main"
+  "main.out" 1712606074.12335 337 acc7b5fc4c0a4ad08ae18660f70ce605 "pdflatex"
+  "main.run.xml" 1712606074.12592 2489 6c6e7a6848cb892b39df66fd5e5a1677 "pdflatex"
+  "main.tex" 1712606071.13957 9731 5174188e14e1863a318efed38127528b ""
   (generated)
   "main.aux"
   "main.bcf"

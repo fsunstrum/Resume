@@ -103,6 +103,22 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+% Custom fullcite command with optional argument for number of authors
+\makeatletter
+\newcommand{\customfullcite}[2][]{%
+    \begingroup
+    \@ifundefined{custommaxnames}{%
+        \def\custommaxnames{1}%
+    }{}%
+    \ifblank{#1}{}{%
+        \def\custommaxnames{#1}%
+    }%
+    \def\abx@field@labelnumber{\custommaxnames}%
+    \fullcite{#2}%
+    \endgroup
+}
+\makeatother
+
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -138,6 +154,17 @@
   \resumeSubHeadingListEnd
 %
 
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, R, C/C++, GDScript} \\
+     \textbf{Frameworks/Tools}{: JUnit, Git, RStudio, ggplot2, IntelliJ,  VS Code} \\
+     \textbf{Soft skills}{: Native proficiency in French and English} \\
+    }}
+ \end{itemize}
+
+%-------------------------------------------
 
 %-----------WORK EXPERIENCE-----------
 \section{Experience}
@@ -212,7 +239,7 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{WORDLE clone} $|$ \emph{Java, Java Swing, IntelliJ, JSON}}{Sept 2023 -- Present}
+          {\textbf{WORDLE clone} $|$ \emph{Java, JUnit, Java Swing, IntelliJ, JSON}}{}
           \resumeItemListStart
             \resumeItem{Developed a WORDLE clone in Java, using including word generation, comparison, and robust input handling.}
             \resumeItem{Created a GUI using Java Swing and used JSON for saving user progress.}
@@ -222,7 +249,7 @@
 
                   
       \resumeProjectHeading
-          {\textbf{The Last Laugh} $|$ \emph{Godot Game Engine, GDScript}}{Jan 2023 -- Present}
+          {\textbf{The Last Laugh} $|$ \emph{Godot Game Engine, GDScript}}{}
           \resumeItemListStart
             \resumeItem{Worked as a team to create a 2D platformer game using the Godot game engine.}
             \resumeItem{Implemented projectile flight and collision mechanics triggering animations.}
@@ -234,25 +261,21 @@
 
 \section*{Selected Publications}
 \begin{itemize}[leftmargin=0.15in, label={}]
-    \item{\fullcite{Oats}}
-    \item{\fullcite{PJs}}
-    \item{\fullcite{pOnes}}
+    \item{A genetic linkage map in southern-by-spring oat identifies multiple quantitative trait loci for adaptation and rust
+    resistance. Plant Breeding, 138 (1), 82–94.       \textbf{First Author}}
+    \item{Improved production of the antidiabetic metabolite montbretin a in nicotiana
+    benthamiana: Discovery, characterization, and use of crocosmia shikimate shunt genes. The Plant Journal,
+    117 (3), 766–785.        \textbf{Second Author}}
+    \item{4-coumaroyl-coa ligases in the biosynthesis of the anti-diabetic metabolite montbretin A. PLOS ONE, 16 (10),
+    1–18.        \textbf{First Author}}
+    %\item{\customfullcite{Oats}}
+    % \item{\customfullcite[2]{PJs}}
+    % \item{\customfullcite{pOnes}}
 \end{itemize}
 
 
 
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: R, C/C++, Java, GDScript} \\
-     \textbf{Frameworks/Tools}{: Git, RStudio, ggplot2, IntelliJ, JUnit, VS Code} \\
-    }}
- \end{itemize}
- 
 
-
-%-------------------------------------------
 
 
 \end{document}
