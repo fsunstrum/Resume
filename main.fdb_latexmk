@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1712605928.43404 "main.bcf" "main.bbl" "main" 1712606074.21461 0
-  "main.bcf" 1712606074.12496 132709 595cf743f518c81b86a58f2eef0f2b4e "pdflatex"
+["biber main"] 1712605928.43404 "main.bcf" "main.bbl" "main" 1712606596.80223 0
+  "main.bcf" 1712606596.70953 132709 595cf743f518c81b86a58f2eef0f2b4e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1712606072.83848 "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" "main.pdf" "main" 1712606074.21514 0
+["pdflatex"] 1712606595.3567 "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" "main.pdf" "main" 1712606596.80276 0
   "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" 1712606071.13957 9731 5174188e14e1863a318efed38127528b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -110,10 +110,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1712453175.89373 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1712453085 8221434 31caf86439fa900c9220e3c0ec29571e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1712606074.1206 772 854b06ed09e221576ea2a2a03187b9e8 "pdflatex"
+  "main.aux" 1712606596.70606 772 854b06ed09e221576ea2a2a03187b9e8 "pdflatex"
   "main.bbl" 1712605931.82735 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.out" 1712606074.12335 337 acc7b5fc4c0a4ad08ae18660f70ce605 "pdflatex"
-  "main.run.xml" 1712606074.12592 2489 6c6e7a6848cb892b39df66fd5e5a1677 "pdflatex"
+  "main.out" 1712606596.70793 337 acc7b5fc4c0a4ad08ae18660f70ce605 "pdflatex"
+  "main.run.xml" 1712606596.71048 2489 6c6e7a6848cb892b39df66fd5e5a1677 "pdflatex"
   "main.tex" 1712606071.13957 9731 5174188e14e1863a318efed38127528b ""
   (generated)
   "main.aux"
