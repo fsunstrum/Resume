@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1712605928.43404 "main.bcf" "main.bbl" "main" 1712681350.37331 0
-  "main.bcf" 1712681350.31958 132709 595cf743f518c81b86a58f2eef0f2b4e "pdflatex"
+["biber main"] 1712605928.43404 "main.bcf" "main.bbl" "main" 1714525773.51671 0
+  "main.bcf" 1714525773.46117 132709 595cf743f518c81b86a58f2eef0f2b4e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1712681349.56338 "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" "main.pdf" "main" 1712681350.37365 0
-  "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" 1712681349.35938 9700 261912a1c322110e6680997165cf09ae ""
+["pdflatex"] 1714525772.69473 "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" "main.pdf" "main" 1714525773.51701 0
+  "/Users/fredsunstrum/Desktop/resumes/Resume/main.tex" 1714525772.48046 10552 988b53bccdfd45be0f997c46dc46b244 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -110,11 +110,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1712453175.89373 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1712453085 8221434 31caf86439fa900c9220e3c0ec29571e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1712681350.31753 772 854b06ed09e221576ea2a2a03187b9e8 "pdflatex"
+  "main.aux" 1714525773.45919 772 854b06ed09e221576ea2a2a03187b9e8 "pdflatex"
   "main.bbl" 1712605931.82735 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.out" 1712681350.31868 337 acc7b5fc4c0a4ad08ae18660f70ce605 "pdflatex"
-  "main.run.xml" 1712681350.3201 2489 6c6e7a6848cb892b39df66fd5e5a1677 "pdflatex"
-  "main.tex" 1712681349.35938 9700 261912a1c322110e6680997165cf09ae ""
+  "main.out" 1714525773.46027 337 acc7b5fc4c0a4ad08ae18660f70ce605 "pdflatex"
+  "main.run.xml" 1714525773.46171 2489 6c6e7a6848cb892b39df66fd5e5a1677 "pdflatex"
+  "main.tex" 1714525772.48046 10552 988b53bccdfd45be0f997c46dc46b244 ""
   (generated)
   "main.aux"
   "main.bcf"

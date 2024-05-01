@@ -20,6 +20,7 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 \usepackage[style=apa]{biblatex}
+\usepackage[hidelinks]{hyperref}
 \addbibresource{refs/Oat.bib}
 \addbibresource{refs/pOne.bib}
 \addbibresource{refs/PJ.bib}
@@ -158,7 +159,7 @@
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: R, Java, C/C++, GDScript} \\
+     \textbf{Languages}{: C/C++, Java, R, GDScript} \\
      \textbf{Frameworks/Tools}{: ggplot2, Tidyverse, JUnit, Git, RStudio, IntelliJ,  VS Code} \\
     }}
  \end{itemize}
@@ -173,7 +174,7 @@
       {Research Methodologist II}{Feb. 2021 -- Aug 2023}
       {University of Ottawa Heart Institute - Cardiovascular Research Methods Center}{Ottawa, ON}
       \resumeItemListStart
-        \resumeItem{Led the statistical analysis and writing of systematic litterature reviews on stem cell treatments for COVID-19 and autoimmune disorders.}
+        \resumeItem{Led statistical analysis and writing of systematic litterature reviews on stem cell treatments for COVID-19 and autoimmune disorders.}
         \resumeItem{Developped a web scraper in R to retrieve clinical trial data.}
         \resumeItem{Performed reference screening, data extraction, risk-of-bias analysis, drafted protocol registrations, and manuscripts for peer-reviewed publication.}
     \resumeItemListEnd
@@ -237,22 +238,23 @@
 % %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{The Last Laugh} $|$ \emph{Godot Game Engine, GDScript}}{}
+          \resumeItemListStart
+            \resumeItem{Worked as a team to create a 2D platformer game using the Godot game engine.}
+            \resumeItem{Implemented projectile flight and collision mechanics triggering animations.}
+          \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{WORDLE clone} $|$ \emph{Java, JUnit, Java Swing, IntelliJ, JSON}}{}
           \resumeItemListStart
-            \resumeItem{Developed a WORDLE clone in Java, using including word generation, comparison, and robust input handling.}
+            \resumeItem{Developed a WORDLE clone in Java, including word selection, comparison, and robust input handling.}
             \resumeItem{Created a GUI using Java Swing and used JSON for saving user progress.}
             \resumeItem{Applied Object Oriented Programming principles and test-driven development.}
 
           \resumeItemListEnd
 
                   
-      \resumeProjectHeading
-          {\textbf{The Last Laugh} $|$ \emph{Godot Game Engine, GDScript}}{}
-          \resumeItemListStart
-            \resumeItem{Worked as a team to create a 2D platformer game using the Godot game engine.}
-            \resumeItem{Implemented projectile flight and collision mechanics triggering animations.}
-          \resumeItemListEnd
+      
     \resumeSubHeadingListEnd
 
 
@@ -260,13 +262,18 @@
 
 \section*{Selected Publications}
 \begin{itemize}[leftmargin=0.15in, label={}]
-    \item{A genetic linkage map in southern-by-spring oat identifies multiple quantitative trait loci for adaptation and rust
-    resistance. Plant Breeding, 138 (1), 82–94.       \break \textbf{First Author}}
+    % \item{A genetic linkage map in southern-by-spring oat identifies multiple quantitative trait loci for adaptation and rust
+    % resistance. Plant Breeding, 138 (1), 82–94.       \break \textbf{First Author}}
+    % \item{Improved production of the antidiabetic metabolite montbretin a in nicotiana
+    % benthamiana: Discovery, characterization, and use of crocosmia shikimate shunt genes. The Plant Journal,
+    % 117 (3), 766–785.        \break \textbf{Second Author}}
+    % \item{4-coumaroyl-coa ligases in the biosynthesis of the anti-diabetic metabolite montbretin A. PLOS ONE, 16 (10),
+    % 1–18.      \break \textbf{First Author}}
     \item{Improved production of the antidiabetic metabolite montbretin a in nicotiana
-    benthamiana: Discovery, characterization, and use of crocosmia shikimate shunt genes. The Plant Journal,
-    117 (3), 766–785.        \break \textbf{Second Author}}
-    \item{4-coumaroyl-coa ligases in the biosynthesis of the anti-diabetic metabolite montbretin A. PLOS ONE, 16 (10),
-    1–18.      \break \textbf{First Author}}
+    benthamiana: Discovery, characterization, and use of crocosmia shikimate shunt genes. (2024) - {\textbf {Second Author {\href{https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.16528}{\underline{(link)}}}}}}
+    \item{4-coumaroyl-coa ligases in the biosynthesis of the anti-diabetic metabolite montbretin A.. (2021) - \break {\textbf {First Author {\href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257478}{\underline{(link)}}}}}}
+    \item{A genetic linkage map in southern-by-spring oat identifies multiple quantitative trait loci for adaptation and rust
+    resistance. (2019) - {\textbf {First Author {\href{https://onlinelibrary.wiley.com/doi/abs/10.1111/pbr.12666}{\underline{(link)}}}}}}
     %\item{\customfullcite{Oats}}
     % \item{\customfullcite[2]{PJs}}
     % \item{\customfullcite{pOnes}}
