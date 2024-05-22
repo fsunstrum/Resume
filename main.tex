@@ -7,6 +7,9 @@
 
 \documentclass[letterpaper,11pt]{article}
 
+
+
+
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -24,6 +27,9 @@
 \addbibresource{refs/Oat.bib}
 \addbibresource{refs/pOne.bib}
 \addbibresource{refs/PJ.bib}
+
+\usepackage{tikz}
+
 
 
 %----------FONT OPTIONS----------
@@ -125,6 +131,7 @@
 
 
 \begin{document}
+\tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{img/header.png}};
 
 %----------HEADING----------
 % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
@@ -133,6 +140,7 @@
 % \end{tabular*}
 
 \begin{center}
+    \vspace{0.8cm}
     \textbf{\Huge \scshape Fred Sunstrum} \\ \vspace{1pt}\href{mailto:fr.sunstrum@gmail.com}{\underline{fredsunstrum@gmail.com}} $|$ 
     \href{https://linkedin.com/in/fredsunstrum/}{\underline{linkedin.com/in/fredsunstrum/}} %$|$
     %\href{https://github.com/...}{\underline{github.com/}}
@@ -159,8 +167,8 @@
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: C/C++, Java, R, GDScript} \\
-     \textbf{Frameworks/Tools}{: ggplot2, Tidyverse, JUnit, Git, RStudio, IntelliJ,  VS Code} \\
+     \textbf{Languages}{: R, C/C++, Java, HTML/CSS} \\
+     \textbf{Frameworks/Tools}{: Git, ggplot2, Tidyverse, RStudio, VS Code} \\
     }}
  \end{itemize}
 
@@ -239,6 +247,12 @@
 \section{Projects}
     \resumeSubHeadingListStart
     \resumeProjectHeading
+          {\textbf{Image Processing Algorithm} $|$ \emph{C++}}{}
+            \resumeItemListStart
+              \resumeItem{Implemented a doubly-linked list to manipulate PNG image pixel data, and BFS/DFS flood fill algorithms.}
+              \resumeItem{Represented PNG pixels in a tree data structure allowing fast calculation of color information from rectangular image regions.}
+            \resumeItemListEnd
+    \resumeProjectHeading
           {\textbf{The Last Laugh} $|$ \emph{Godot Game Engine, GDScript}}{}
           \resumeItemListStart
             \resumeItem{Worked as a team to create a 2D platformer game using the Godot game engine.}
@@ -271,7 +285,7 @@
     % 1–18.      \break \textbf{First Author}}
     \item{Improved production of the antidiabetic metabolite montbretin a in nicotiana
     benthamiana: Discovery, characterization, and use of crocosmia shikimate shunt genes. (2024) - {\textbf {Second Author {\href{https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.16528}{\underline{(link)}}}}}}
-    \item{4-coumaroyl-coa ligases in the biosynthesis of the anti-diabetic metabolite montbretin A.. (2021) - \break {\textbf {First Author {\href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257478}{\underline{(link)}}}}}}
+    \item{4-coumaroyl-coa ligases in the biosynthesis of the anti-diabetic metabolite montbretin A. (2021) - \break {\textbf {First Author {\href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257478}{\underline{(link)}}}}}}
     \item{A genetic linkage map in southern-by-spring oat identifies multiple quantitative trait loci for adaptation and rust
     resistance. (2019) - {\textbf {First Author {\href{https://onlinelibrary.wiley.com/doi/abs/10.1111/pbr.12666}{\underline{(link)}}}}}}
     %\item{\customfullcite{Oats}}
